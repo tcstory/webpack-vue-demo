@@ -3,7 +3,7 @@
   "description": "",
   "author": "",
   "scripts": {
-    "dev": "node webpack-dev-server.js",
+    "dev": "node webpack.dev.server.js",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
